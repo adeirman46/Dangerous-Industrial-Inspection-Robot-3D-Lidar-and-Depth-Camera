@@ -2,7 +2,7 @@
 
 **A complete ROS2 Humble simulation for the Unitree Go2 robot featuring SLAM, LiDAR, Depth Camera, and a Factory Warehouse Environment.**
 
-![Teleop](/home/irman/3dlidar_ros2_legged_robot_inspection/docs/teleop.png)
+![Teleop](docs/teleop.png)
 
 ## Overview
 
