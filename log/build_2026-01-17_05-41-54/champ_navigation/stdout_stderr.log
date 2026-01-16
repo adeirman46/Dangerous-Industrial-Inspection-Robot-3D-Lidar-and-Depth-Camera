@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/launch
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/launch/slam.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/launch/navigate.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/rviz
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/rviz/navigation_minimal.rviz
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/rviz/slam.rviz
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/rviz/navigation.rviz
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/ament_index/resource_index/package_run_dependencies/champ_navigation
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/ament_index/resource_index/parent_prefix_path/champ_navigation
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/environment/path.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/environment/path.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/local_setup.bash
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/local_setup.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/local_setup.zsh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/local_setup.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/package.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/ament_index/resource_index/packages/champ_navigation
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/cmake/champ_navigationConfig.cmake
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/cmake/champ_navigationConfig-version.cmake
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_navigation/share/champ_navigation/package.xml

@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: go2_control
+Version: 1.0.0
+Summary: Keyboard WASD control for Unitree Go2 robot
+Maintainer: user
+Maintainer-email: user@example.com
+License: MIT
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

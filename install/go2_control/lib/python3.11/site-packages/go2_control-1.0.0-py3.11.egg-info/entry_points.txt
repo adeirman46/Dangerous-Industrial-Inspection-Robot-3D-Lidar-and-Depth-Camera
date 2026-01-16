@@ -1,0 +1,2 @@
+[console_scripts]
+wasd_controller = go2_control.wasd_controller:main

@@ -1,0 +1,14 @@
+{
+  "package_name": "champ_msgs",
+  "non_idl_tuples": [
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/Velocities.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/PID.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/Imu.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/Point.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/PointArray.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/Joints.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/Contacts.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/ContactsStamped.msg",
+    "/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_msgs:msg/Pose.msg"
+  ]
+}

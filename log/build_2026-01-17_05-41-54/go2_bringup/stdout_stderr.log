@@ -1,0 +1,55 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- The C compiler identification is GNU 14.3.0
+-- The CXX compiler identification is GNU 14.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+-- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python_EXECUTABLE
+
+[0m
+-- Build files have been written to: /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup
+-- Install configuration: ""
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/launch
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/launch/full_demo.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/rviz
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/rviz/go2_slam.rviz
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/config
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/config/slam_params.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/config/nav2_params.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/ament_index/resource_index/package_run_dependencies/go2_bringup
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/ament_index/resource_index/parent_prefix_path/go2_bringup
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/environment/path.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/environment/path.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/local_setup.bash
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/local_setup.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/local_setup.zsh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/local_setup.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/package.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/ament_index/resource_index/packages/go2_bringup
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/cmake/go2_bringupConfig.cmake
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/cmake/go2_bringupConfig-version.cmake
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/package.xml

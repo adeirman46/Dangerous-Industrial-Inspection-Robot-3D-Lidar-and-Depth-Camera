@@ -1,0 +1,21 @@
+[0.247s] Invoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_description': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/robots/descriptions/go2_description -DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3 -DCMAKE_INSTALL_PREFIX=/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_description
+[0.265s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.265s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.266s]   CMake.
+[0.266s] 
+[0.266s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.267s]   to tell CMake that the project requires at least <min> but has been updated
+[0.267s]   to work with policies introduced by <max> or earlier.
+[0.267s] 
+[0.267s] [0m
+[0.270s] -- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+[0.582s] -- Found ament_lint_auto: 0.12.12 (/home/irman/micromamba/envs/ros2_env/share/ament_lint_auto/cmake)
+[0.677s] -- Configuring done (0.4s)
+[0.681s] -- Generating done (0.0s)
+[0.682s] [33mCMake Warning:
+[0.682s]   Manually-specified variables were not used by the project:
+[0.682s] 
+[0.682s]     Python_EXECUTABLE
+[0.682s] 
+[0.682s] [0m
+[0.682s] -- Build files have been written to: /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_description

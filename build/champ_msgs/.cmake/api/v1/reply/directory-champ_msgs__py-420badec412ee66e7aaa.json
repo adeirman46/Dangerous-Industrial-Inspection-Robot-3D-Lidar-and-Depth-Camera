@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "champ_msgs__py",
+		"source" : "/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/champ_msgs__py"
+	}
+}

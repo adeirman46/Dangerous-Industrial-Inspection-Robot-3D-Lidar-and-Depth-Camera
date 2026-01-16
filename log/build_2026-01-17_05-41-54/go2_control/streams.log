@@ -1,0 +1,35 @@
+[0.650s] Invoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_control': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/prefix_override:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_control build --build-base /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/build install --record /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/install.log --single-version-externally-managed install_data
+[0.963s] running egg_info
+[0.990s] creating ../../build/go2_control/go2_control.egg-info
+[0.990s] writing ../../build/go2_control/go2_control.egg-info/PKG-INFO
+[0.991s] writing dependency_links to ../../build/go2_control/go2_control.egg-info/dependency_links.txt
+[0.991s] writing entry points to ../../build/go2_control/go2_control.egg-info/entry_points.txt
+[0.991s] writing requirements to ../../build/go2_control/go2_control.egg-info/requires.txt
+[0.991s] writing top-level names to ../../build/go2_control/go2_control.egg-info/top_level.txt
+[0.991s] writing manifest file '../../build/go2_control/go2_control.egg-info/SOURCES.txt'
+[1.054s] reading manifest file '../../build/go2_control/go2_control.egg-info/SOURCES.txt'
+[1.056s] writing manifest file '../../build/go2_control/go2_control.egg-info/SOURCES.txt'
+[1.056s] running build
+[1.056s] running build_py
+[1.056s] creating /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/build/lib/go2_control
+[1.057s] copying go2_control/wasd_controller.py -> /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/build/lib/go2_control
+[1.057s] copying go2_control/__init__.py -> /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/build/lib/go2_control
+[1.058s] running install
+[1.066s] running install_lib
+[1.096s] creating /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages/go2_control
+[1.097s] copying /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/build/lib/go2_control/wasd_controller.py -> /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages/go2_control
+[1.097s] copying /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/build/lib/go2_control/__init__.py -> /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages/go2_control
+[1.097s] byte-compiling /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages/go2_control/wasd_controller.py to wasd_controller.cpython-311.pyc
+[1.100s] byte-compiling /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages/go2_control/__init__.py to __init__.cpython-311.pyc
+[1.100s] running install_data
+[1.101s] creating /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/share/ament_index/resource_index/packages
+[1.101s] copying resource/go2_control -> /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/share/ament_index/resource_index/packages
+[1.101s] copying package.xml -> /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/share/go2_control
+[1.101s] creating /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/share/go2_control/launch
+[1.102s] copying launch/wasd_control.launch.py -> /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/share/go2_control/launch
+[1.102s] running install_egg_info
+[1.136s] Copying ../../build/go2_control/go2_control.egg-info to /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages/go2_control-1.0.0-py3.11.egg-info
+[1.137s] running install_scripts
+[1.199s] Installing wasd_controller script to /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/go2_control
+[1.199s] writing list of installed files to '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/install.log'
+[1.277s] Invoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_control' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/prefix_override:/home/irman/micromamba/envs/ros2_env/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_control build --build-base /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/build install --record /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_control/install.log --single-version-externally-managed install_data

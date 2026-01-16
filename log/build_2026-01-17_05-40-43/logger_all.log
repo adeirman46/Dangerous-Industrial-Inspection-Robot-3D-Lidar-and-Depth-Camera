@@ -1,0 +1,418 @@
+[0.232s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/irman/micromamba/envs/ros2_env/bin/colcon', 'build', '--packages-select', 'go2_bringup', 'go2_config', '--cmake-args', '-DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3'][0m
+[0.232s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['go2_bringup', 'go2_config'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=['-DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73d6c2157850>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73d6c2156b50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73d6c2156b50>>)[0m
+[0.291s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.291s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.292s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/irman/3dlidar_ros2_legged_robot_inspection'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.292s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.293s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.333s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.334s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.335s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extension 'ignore'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extension 'ignore_ament_install'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extensions ['colcon_pkg']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extension 'colcon_pkg'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extensions ['colcon_meta']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extension 'colcon_meta'
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extensions ['ros']
+[0.336s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/aws_warehouse_world) by extension 'ros'
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/aws_warehouse_world' with type 'ros.catkin' and name 'aws_robomaker_small_warehouse_world'[0m
+[0.339s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extension 'ignore'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extension 'ignore_ament_install'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extensions ['colcon_pkg']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extension 'colcon_pkg'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extensions ['colcon_meta']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extension 'colcon_meta'
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extensions ['ros']
+[0.340s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_bringup) by extension 'ros'
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/go2_bringup' with type 'ros.ament_cmake' and name 'go2_bringup'[0m
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extension 'ignore'
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extension 'ignore_ament_install'
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extensions ['colcon_pkg']
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extension 'colcon_pkg'
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extensions ['colcon_meta']
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extension 'colcon_meta'
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extensions ['ros']
+[0.341s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/go2_control) by extension 'ros'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/go2_control' with type 'ros.ament_python' and name 'go2_control'[0m
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'ignore'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'ignore_ament_install'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extensions ['colcon_pkg']
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'colcon_pkg'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extensions ['colcon_meta']
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'colcon_meta'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extensions ['ros']
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'ros'
+[0.342s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extensions ['cmake', 'python']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'cmake'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'python'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extensions ['python_setup_py']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2) by extension 'python_setup_py'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'ignore'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'ignore_ament_install'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extensions ['colcon_pkg']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'colcon_pkg'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extensions ['colcon_meta']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'colcon_meta'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extensions ['ros']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'ros'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extensions ['cmake', 'python']
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'cmake'
+[0.343s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'python'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extensions ['python_setup_py']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ) by extension 'python_setup_py'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extension 'ignore'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extension 'ignore_ament_install'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extensions ['colcon_pkg']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extension 'colcon_pkg'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extensions ['colcon_meta']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extension 'colcon_meta'
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extensions ['ros']
+[0.344s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ) by extension 'ros'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ' with type 'ros.ament_cmake' and name 'champ'[0m
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extension 'ignore'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extension 'ignore_ament_install'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extensions ['colcon_pkg']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extension 'colcon_pkg'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extensions ['colcon_meta']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extension 'colcon_meta'
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extensions ['ros']
+[0.345s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_base) by extension 'ros'
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ_base' with type 'ros.ament_cmake' and name 'champ_base'[0m
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extension 'ignore'
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extension 'ignore_ament_install'
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extensions ['colcon_pkg']
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extension 'colcon_pkg'
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extensions ['colcon_meta']
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extension 'colcon_meta'
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extensions ['ros']
+[0.347s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_bringup) by extension 'ros'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ_bringup' with type 'ros.ament_cmake' and name 'champ_bringup'[0m
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extension 'ignore'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extension 'ignore_ament_install'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extensions ['colcon_pkg']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extension 'colcon_pkg'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extensions ['colcon_meta']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extension 'colcon_meta'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extensions ['ros']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_config) by extension 'ros'
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ_config' with type 'ros.ament_cmake' and name 'champ_config'[0m
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extension 'ignore'
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extension 'ignore_ament_install'
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extensions ['colcon_pkg']
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extension 'colcon_pkg'
+[0.349s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extensions ['colcon_meta']
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extension 'colcon_meta'
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extensions ['ros']
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_description) by extension 'ros'
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ_description' with type 'ros.ament_cmake' and name 'champ_description'[0m
+[0.350s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extension 'ignore'
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extension 'ignore_ament_install'
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extensions ['colcon_pkg']
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extension 'colcon_pkg'
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extensions ['colcon_meta']
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extension 'colcon_meta'
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extensions ['ros']
+[0.351s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_gazebo) by extension 'ros'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ_gazebo' with type 'ros.ament_cmake' and name 'champ_gazebo'[0m
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extension 'ignore'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extension 'ignore_ament_install'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extensions ['colcon_pkg']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extension 'colcon_pkg'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extensions ['colcon_meta']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extension 'colcon_meta'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extensions ['ros']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_msgs) by extension 'ros'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ_msgs' with type 'ros.ament_cmake' and name 'champ_msgs'[0m
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extension 'ignore'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extension 'ignore_ament_install'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extensions ['colcon_pkg']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extension 'colcon_pkg'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extensions ['colcon_meta']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extension 'colcon_meta'
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extensions ['ros']
+[0.353s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/champ_navigation) by extension 'ros'
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ/champ_navigation' with type 'ros.ament_cmake' and name 'champ_navigation'[0m
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'ignore'
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'ignore_ament_install'
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extensions ['colcon_pkg']
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'colcon_pkg'
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extensions ['colcon_meta']
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'colcon_meta'
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extensions ['ros']
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'ros'
+[0.354s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extensions ['cmake', 'python']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'cmake'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'python'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extensions ['python_setup_py']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs) by extension 'python_setup_py'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'ignore'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'ignore_ament_install'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extensions ['colcon_pkg']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'colcon_pkg'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extensions ['colcon_meta']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'colcon_meta'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extensions ['ros']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'ros'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extensions ['cmake', 'python']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'cmake'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'python'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extensions ['python_setup_py']
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ/docs/images) by extension 'python_setup_py'
+[0.355s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extension 'ignore'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extension 'ignore_ament_install'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extensions ['colcon_pkg']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extension 'colcon_pkg'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extensions ['colcon_meta']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extension 'colcon_meta'
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extensions ['ros']
+[0.356s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/champ_teleop) by extension 'ros'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/champ_teleop' with type 'ros.ament_cmake' and name 'champ_teleop'[0m
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'ignore'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'ignore_ament_install'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extensions ['colcon_pkg']
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'colcon_pkg'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extensions ['colcon_meta']
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'colcon_meta'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extensions ['ros']
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'ros'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extensions ['cmake', 'python']
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'cmake'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'python'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extensions ['python_setup_py']
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots) by extension 'python_setup_py'
+[0.357s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'ignore'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'ignore_ament_install'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extensions ['colcon_pkg']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'colcon_pkg'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extensions ['colcon_meta']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'colcon_meta'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extensions ['ros']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'ros'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extensions ['cmake', 'python']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'cmake'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'python'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extensions ['python_setup_py']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs) by extension 'python_setup_py'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extension 'ignore'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extension 'ignore_ament_install'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extensions ['colcon_pkg']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extension 'colcon_pkg'
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extensions ['colcon_meta']
+[0.358s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extension 'colcon_meta'
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extensions ['ros']
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/configs/go2_config) by extension 'ros'
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/robots/configs/go2_config' with type 'ros.ament_cmake' and name 'go2_config'[0m
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'ignore'
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'ignore_ament_install'
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extensions ['colcon_pkg']
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'colcon_pkg'
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extensions ['colcon_meta']
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'colcon_meta'
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extensions ['ros']
+[0.359s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'ros'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extensions ['cmake', 'python']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'cmake'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'python'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extensions ['python_setup_py']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions) by extension 'python_setup_py'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extension 'ignore'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extension 'ignore_ament_install'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extensions ['colcon_pkg']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extension 'colcon_pkg'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extensions ['colcon_meta']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extension 'colcon_meta'
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extensions ['ros']
+[0.360s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/unitree-go2-ros2/robots/descriptions/go2_description) by extension 'ros'
+[0.361s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/unitree-go2-ros2/robots/descriptions/go2_description' with type 'ros.ament_cmake' and name 'go2_description'[0m
+[0.361s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.361s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.361s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.361s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.361s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'aws_robomaker_small_warehouse_world' in 'src/aws_warehouse_world'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ' in 'src/unitree-go2-ros2/champ/champ'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_config' in 'src/unitree-go2-ros2/champ/champ_config'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_description' in 'src/unitree-go2-ros2/champ/champ_description'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_msgs' in 'src/unitree-go2-ros2/champ/champ_msgs'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_navigation' in 'src/unitree-go2-ros2/champ/champ_navigation'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_teleop' in 'src/unitree-go2-ros2/champ_teleop'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'go2_control' in 'src/go2_control'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'go2_description' in 'src/unitree-go2-ros2/robots/descriptions/go2_description'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_base' in 'src/unitree-go2-ros2/champ/champ_base'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_gazebo' in 'src/unitree-go2-ros2/champ/champ_gazebo'
+[0.379s] [34mcolcon.colcon_core.package_selection[0m [1;30mINFO[0m Skipping not selected package 'champ_bringup' in 'src/unitree-go2-ros2/champ/champ_bringup'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'cmake_args' from command line to '['-DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3']'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'cmake_target' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'go2_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config', 'merge_install': False, 'path': '/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/robots/configs/go2_config', 'symlink_install': False, 'test_result_base': None}[0m
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'cmake_args' from command line to '['-DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3']'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'go2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'go2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup', 'merge_install': False, 'path': '/home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_bringup', 'symlink_install': False, 'test_result_base': None}[0m
+[0.381s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.381s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.382s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/robots/configs/go2_config' with build type 'ament_cmake'
+[0.382s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/robots/configs/go2_config'
+[0.384s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.384s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.384s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.395s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/robots/configs/go2_config -DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3 -DCMAKE_INSTALL_PREFIX=/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config[0m
+[0.712s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/robots/configs/go2_config -DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3 -DCMAKE_INSTALL_PREFIX=/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config[0m
+[0.713s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config -- -j16 -l16[0m
+[0.746s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config -- -j16 -l16[0m
+[0.754s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config[0m
+[0.776s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(go2_config)
+[0.776s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config[0m
+[0.777s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config' for CMake module files
+[0.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config' for CMake config files
+[0.778s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('go2_config', 'cmake_prefix_path')
+[0.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/hook/cmake_prefix_path.ps1'
+[0.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/hook/cmake_prefix_path.dsv'
+[0.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/hook/cmake_prefix_path.sh'
+[0.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/bin'
+[0.779s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/lib/pkgconfig/go2_config.pc'
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/lib/python3.11/site-packages'
+[0.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/bin'
+[0.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.ps1'
+[0.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.dsv'
+[0.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.sh'
+[0.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.bash'
+[0.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.zsh'
+[0.782s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/colcon-core/packages/go2_config)
+[0.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(go2_config)
+[0.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config' for CMake module files
+[0.783s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config' for CMake config files
+[0.783s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('go2_config', 'cmake_prefix_path')
+[0.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/hook/cmake_prefix_path.ps1'
+[0.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/hook/cmake_prefix_path.dsv'
+[0.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/hook/cmake_prefix_path.sh'
+[0.784s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/bin'
+[0.784s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/lib/pkgconfig/go2_config.pc'
+[0.784s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/lib/python3.11/site-packages'
+[0.784s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/bin'
+[0.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.ps1'
+[0.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.dsv'
+[0.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.sh'
+[0.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.bash'
+[0.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.zsh'
+[0.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/colcon-core/packages/go2_config)
+[0.786s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_bringup' with build type 'ament_cmake'
+[0.786s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_bringup'
+[0.786s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.786s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.788s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mERROR[0m [31mFailed to find the following files:
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ/share/champ/package.sh
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_description/share/champ_description/package.sh
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/package.sh
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_control/share/go2_control/package.sh
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_description/share/go2_description/package.sh
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/package.sh
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_gazebo/share/champ_gazebo/package.sh
+- /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_bringup/share/champ_bringup/package.sh
+Check that the following packages have been built:
+- champ
+- champ_description
+- champ_msgs
+- go2_control
+- go2_description
+- champ_base
+- champ_gazebo
+- champ_bringup[0m
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(go2_bringup)
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup' for CMake module files
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup' for CMake config files
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/bin'
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/lib/pkgconfig/go2_bringup.pc'
+[0.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/lib/python3.11/site-packages'
+[0.790s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/bin'
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/package.ps1'
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/package.dsv'
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/package.sh'
+[0.790s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/package.bash'
+[0.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/go2_bringup/package.zsh'
+[0.791s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_bringup/share/colcon-core/packages/go2_bringup)
+[0.801s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[0.802s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[0.802s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[0.802s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[0.803s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[0.803s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/local_setup.ps1'
+[0.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/irman/3dlidar_ros2_legged_robot_inspection/install/_local_setup_util_ps1.py'
+[0.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/setup.ps1'
+[0.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/local_setup.sh'
+[0.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/irman/3dlidar_ros2_legged_robot_inspection/install/_local_setup_util_sh.py'
+[0.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/setup.sh'
+[0.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/local_setup.bash'
+[0.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/setup.bash'
+[0.808s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/local_setup.zsh'
+[0.808s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/irman/3dlidar_ros2_legged_robot_inspection/install/setup.zsh'

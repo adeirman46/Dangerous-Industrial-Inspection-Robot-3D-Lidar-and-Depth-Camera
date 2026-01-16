@@ -1,0 +1,44 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /home/irman/micromamba/envs/ros2_env/lib/cmake/gazebo/gazebo-config.cmake:187 (find_package):
+  Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+  --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /home/irman/micromamba/envs/ros2_env/share/gazebo_dev/cmake/gazebo_dev-extras.cmake:3 (find_package)
+  /home/irman/micromamba/envs/ros2_env/share/gazebo_dev/cmake/gazebo_devConfig.cmake:41 (include)
+  /home/irman/micromamba/envs/ros2_env/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/irman/micromamba/envs/ros2_env/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake:41 (include)
+  CMakeLists.txt:11 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Python_EXECUTABLE
+
+[0m
+In file included from [01m[K/home/irman/micromamba/envs/ros2_env/include/gazebo-11/gazebo/common/common.hh:16[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/include/gazebo-11/gazebo/gazebo_client.hh:23[m[K,
+                 from [01m[K/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_gazebo/src/contact_sensor.cpp:22[m[K:
+[01m[K/home/irman/micromamba/envs/ros2_env/include/gazebo-11/gazebo/common/EnumIface.hh:180:12:[m[K [01;35m[Kwarning: [m[K'[01m[Ktemplate<class _Category, class _Tp, class _Distance, class _Pointer, class _Reference> struct std::iterator[m[K' is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-14.3.0/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  180 | [01;35m[Kiterator[m[K<std::bidirectional_iterator_tag, Enum>
+      | [01;35m[K^~~~~~~~[m[K
+
+In file included from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_construct.h:61[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_tempbuf.h:61[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/memory:66[m[K,
+                 from [01m[K/home/irman/micromamba/envs/ros2_env/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_gazebo/src/contact_sensor.cpp:17[m[K:
+[01m[K/home/irman/micromamba/envs/ros2_env/lib/gcc/x86_64-conda-linux-gnu/14.3.0/include/c++/bits/stl_iterator_base_types.h:127:34:[m[K [01;36m[Knote: [m[Kdeclared here
+  127 | ED [01;36m[Kiterator[m[K
+      |    [01;36m[K^~~~~~~~[m[K
+

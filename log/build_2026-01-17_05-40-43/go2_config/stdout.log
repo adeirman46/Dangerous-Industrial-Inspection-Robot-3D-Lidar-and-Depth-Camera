@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config
+-- Install configuration: ""
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/launch
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/launch/bringup.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/launch/gazebo_velodyne.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/launch/gazebo.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/launch/slam.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/launch/navigate.launch.py
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/joints
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/joints/joints.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/ros_control
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/ros_control/ros_control.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/autonomy
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/autonomy/navigation.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/autonomy/slam.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/links
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/links/links.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/gait
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/config/gait/gait.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/maps
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/maps/playground.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/maps/map.pgm
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/maps/playground.pgm
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/maps/map.yaml
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/worlds
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/worlds/outdoor.world
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/worlds/playground.world
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/worlds/warehouse.world
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/worlds/factory.world
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/worlds/default.world
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/ament_index/resource_index/package_run_dependencies/go2_config
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/ament_index/resource_index/parent_prefix_path/go2_config
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/environment/ament_prefix_path.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/environment/ament_prefix_path.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/environment/path.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/environment/path.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/local_setup.bash
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/local_setup.sh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/local_setup.zsh
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/local_setup.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.dsv
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/ament_index/resource_index/packages/go2_config
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/cmake/go2_configConfig.cmake
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/cmake/go2_configConfig-version.cmake
+-- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/go2_config/share/go2_config/package.xml

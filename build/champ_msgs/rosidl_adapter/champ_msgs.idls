@@ -1,0 +1,9 @@
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Velocities.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PID.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Imu.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Point.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PointArray.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Joints.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Contacts.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/ContactsStamped.idl
+/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Pose.idl

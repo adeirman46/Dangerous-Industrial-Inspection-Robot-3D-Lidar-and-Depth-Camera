@@ -1,0 +1,406 @@
+[0.030s] Invoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs -- -j16 -l16
+[0.225s] [  1%] [1m[34mGenerating C code for ROS interfaces[0m
+[0.226s] [  2%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[0.226s] [  2%] Built target ament_cmake_python_copy_champ_msgs
+[0.264s] running egg_info
+[0.277s] creating champ_msgs.egg-info
+[0.277s] writing champ_msgs.egg-info/PKG-INFO
+[0.277s] writing dependency_links to champ_msgs.egg-info/dependency_links.txt
+[0.277s] writing top-level names to champ_msgs.egg-info/top_level.txt
+[0.277s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[0.320s] reading manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[0.321s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[0.364s] [  2%] Built target ament_cmake_python_build_champ_msgs_egg
+[0.455s] [  2%] Built target champ_msgs__cpp
+[0.465s] [  4%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.465s] [  4%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.465s] [  5%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[0.468s] [  8%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__functions.c.o[0m
+[0.468s] [  8%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__functions.c.o[0m
+[0.468s] [  8%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__functions.c.o[0m
+[0.468s] [  9%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__functions.c.o[0m
+[0.469s] [ 10%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__functions.c.o[0m
+[0.469s] [ 12%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__functions.c.o[0m
+[0.469s] [ 12%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__functions.c.o[0m
+[0.470s] [ 13%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__functions.c.o[0m
+[0.470s] [ 14%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__functions.c.o[0m
+[0.600s] [ 15%] [1m[32mLinking C shared library libchamp_msgs__rosidl_generator_c.so[0m
+[0.643s] [ 15%] Built target champ_msgs__rosidl_generator_c
+[0.652s] [ 18%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[0.652s] [ 18%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[0.652s] [ 18%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[0.736s] [ 21%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/imu__type_support.cpp.o[0m
+[0.737s] [ 23%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pid__type_support.cpp.o[0m
+[0.737s] [ 23%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[0.737s] [ 23%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[0.737s] [ 24%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point__type_support.cpp.o[0m
+[0.737s] [ 26%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[0.737s] [ 26%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[0.738s] [ 27%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/joints__type_support.cpp.o[0m
+[0.738s] [ 28%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pose__type_support.cpp.o[0m
+[0.865s] [ 29%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/velocities__type_support.cpp.o[0m
+[0.868s] [ 30%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pid__type_support.cpp.o[0m
+[0.886s] [ 31%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/imu__type_support.cpp.o[0m
+[0.962s] [ 32%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/velocities__type_support.cpp.o[0m
+[1.128s] [ 33%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[1.186s] [ 34%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pid__type_support.cpp.o[0m
+[1.250s] [ 35%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/imu__type_support.cpp.o[0m
+[1.273s] [ 36%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[1.273s] [ 37%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point__type_support.cpp.o[0m
+[1.279s] [ 38%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[1.288s] [ 40%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[1.291s] [ 41%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point__type_support.cpp.o[0m
+[1.299s] [ 42%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[1.300s] [ 43%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[1.302s] [ 44%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/joints__type_support.cpp.o[0m
+[1.310s] [ 45%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts__type_support.cpp.o[0m
+[1.311s] [ 46%] [1m[32mLinking CXX shared library libchamp_msgs__rosidl_typesupport_cpp.so[0m
+[1.326s] [ 47%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/velocities__type_support.c.o[0m
+[1.330s] [ 48%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[1.342s] [ 49%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/velocities__type_support_c.cpp.o[0m
+[1.389s] [ 49%] Built target champ_msgs__rosidl_typesupport_cpp
+[1.397s] [ 50%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp.o[0m
+[1.399s] [ 51%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pid__type_support.c.o[0m
+[1.411s] [ 52%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pid__type_support_c.cpp.o[0m
+[1.486s] [ 53%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[1.498s] [ 54%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/imu__type_support.c.o[0m
+[1.523s] [ 55%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[1.527s] [ 56%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[1.547s] [ 57%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[1.571s] [ 58%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[1.610s] [ 60%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point__type_support.c.o[0m
+[1.622s] [ 61%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pose__type_support.cpp.o[0m
+[1.684s] [ 62%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point_array__type_support.c.o[0m
+[1.709s] [ 63%] [1m[32mLinking CXX shared library libchamp_msgs__rosidl_typesupport_c.so[0m
+[1.777s] [ 64%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/joints__type_support.c.o[0m
+[1.810s] [ 64%] Built target champ_msgs__rosidl_typesupport_c
+[1.821s] [ 65%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/joints__type_support.cpp.o[0m
+[1.885s] [ 66%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts_stamped__type_support.cpp.o[0m
+[1.888s] [ 67%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts__type_support.c.o[0m
+[1.897s] [ 68%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o[0m
+[1.906s] [ 69%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pose__type_support.cpp.o[0m
+[1.966s] [ 70%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/joints__type_support_c.cpp.o[0m
+[1.979s] [ 71%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pose__type_support.c.o[0m
+[2.000s] [ 72%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[2.045s] [ 73%] [1m[32mLinking C shared library libchamp_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.062s] [ 74%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts_stamped__type_support.cpp.o[0m
+[2.066s] [ 75%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[2.066s] [ 76%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts__type_support_c.cpp.o[0m
+[2.100s] [ 77%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts_stamped__type_support_c.cpp.o[0m
+[2.100s] [ 77%] Built target champ_msgs__rosidl_typesupport_introspection_c
+[2.100s] [ 78%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[2.562s] [ 80%] [1m[32mLinking CXX shared library libchamp_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.581s] [ 81%] [1m[32mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.601s] [ 82%] [1m[32mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.653s] [ 82%] Built target champ_msgs__rosidl_typesupport_introspection_cpp
+[2.669s] [ 82%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp
+[2.685s] [ 82%] Built target champ_msgs__rosidl_typesupport_fastrtps_c
+[2.702s] [ 82%] Built target champ_msgs
+[2.719s] [ 83%] [1m[34mGenerating Python code for ROS interfaces[0m
+[3.154s] [ 83%] Built target champ_msgs__py
+[3.170s] [ 87%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o[0m
+[3.170s] [ 87%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o[0m
+[3.170s] [ 87%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o[0m
+[3.171s] [ 87%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o[0m
+[3.171s] [ 89%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o[0m
+[3.171s] [ 89%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o[0m
+[3.171s] [ 90%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o[0m
+[3.171s] [ 91%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o[0m
+[3.172s] [ 92%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o[0m
+[3.349s] [ 93%] [1m[32mLinking C shared library rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so[0m
+[3.386s] [ 93%] Built target champ_msgs__rosidl_generator_py
+[3.400s] [ 95%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.401s] [ 95%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.401s] [ 96%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.567s] [ 98%] [1m[32mLinking C shared library rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so[0m
+[3.567s] [ 98%] [1m[32mLinking C shared library rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so[0m
+[3.572s] [100%] [1m[32mLinking C shared library rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so[0m
+[3.595s] [100%] Built target champ_msgs__rosidl_typesupport_c__pyext
+[3.595s] [100%] Built target champ_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.602s] [100%] Built target champ_msgs__rosidl_typesupport_introspection_c__pyext
+[3.612s] Invoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs -- -j16 -l16
+[3.614s] Invoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs
+[3.619s] -- Install configuration: ""
+[3.619s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/ament_index/resource_index/rosidl_interfaces/champ_msgs
+[3.619s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs
+[3.619s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[3.619s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.h
+[3.619s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.h
+[3.619s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.h
+[3.619s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.h
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.c
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.h
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.h
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.c
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.c
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.h
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.h
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.h
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.c
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.c
+[3.620s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.h
+[3.621s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.c
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.h
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.c
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.h
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.h
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.h
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.c
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.h
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.h
+[3.622s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.c
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.h
+[3.623s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.h
+[3.624s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.h
+[3.624s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
+[3.624s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs
+[3.624s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[3.624s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[3.624s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_c.h
+[3.624s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[3.624s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_c.h
+[3.624s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[3.624s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[3.625s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[3.625s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[3.625s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_c.h
+[3.625s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_c.h
+[3.625s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.625s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
+[3.625s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.625s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs
+[3.625s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.626s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.c
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_c.h
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_c.h
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.c
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.c
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_c.h
+[3.626s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.c
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.c
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.c
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_c.h
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.c
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.c
+[3.627s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.c
+[3.628s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
+[3.628s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.628s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
+[3.628s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so" to ""
+[3.628s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs
+[3.628s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[3.628s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.hpp
+[3.629s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__builder.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__traits.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp
+[3.629s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__builder.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__traits.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__traits.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__builder.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp
+[3.630s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.hpp
+[3.631s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp
+[3.632s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp
+[3.632s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__builder.hpp
+[3.632s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__traits.hpp
+[3.632s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.hpp
+[3.632s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp
+[3.632s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__traits.hpp
+[3.632s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__builder.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.hpp
+[3.633s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp
+[3.633s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs
+[3.634s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[3.634s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.634s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.635s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/dds_fastrtps
+[3.635s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.635s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.635s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs
+[3.635s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[3.635s] -- Up-to-date: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[3.635s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.cpp
+[3.635s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp
+[3.635s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.cpp
+[3.635s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.cpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_cpp.hpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.cpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.cpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.cpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.cpp
+[3.636s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.cpp
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_cpp.hpp
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.cpp
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
+[3.637s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/environment/pythonpath.sh
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/environment/pythonpath.dsv
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs-0.1.0-py3.11.egg-info
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs-0.1.0-py3.11.egg-info/dependency_links.txt
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs-0.1.0-py3.11.egg-info/SOURCES.txt
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs-0.1.0-py3.11.egg-info/top_level.txt
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs-0.1.0-py3.11.egg-info/PKG-INFO
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg
+[3.638s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_pose.py
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_joints_s.c
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_point_array.py
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_imu.py
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_pid.py
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_contacts_stamped_s.c
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_contacts_stamped.py
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_pid_s.c
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_point_s.c
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_imu_s.c
+[3.639s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_point.py
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_contacts_s.c
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_joints.py
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_velocities.py
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/__init__.py
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_contacts.py
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_point_array_s.c
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_velocities_s.c
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/msg/_pose_s.c
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c
+[3.640s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/libchamp_msgs__rosidl_generator_py.so
+[3.641s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.641s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.641s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[3.641s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/__init__.py
+[3.641s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[3.641s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[3.665s] Listing 'lib/python3.11/site-packages/champ_msgs'...
+[3.665s] Can't list 'lib/python3.11/site-packages/champ_msgs'
+[3.670s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so
+[3.670s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-311-x86_64-linux-gnu.so" to ""
+[3.670s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so
+[3.670s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-311-x86_64-linux-gnu.so" to ""
+[3.670s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so
+[3.670s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-311-x86_64-linux-gnu.so" to ""
+[3.670s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
+[3.670s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so" to ""
+[3.670s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Velocities.idl
+[3.671s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/PID.idl
+[3.671s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Imu.idl
+[3.671s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Point.idl
+[3.671s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/PointArray.idl
+[3.671s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Joints.idl
+[3.671s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Contacts.idl
+[3.671s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.idl
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Pose.idl
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Velocities.msg
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/PID.msg
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Imu.msg
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Point.msg
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/PointArray.msg
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Joints.msg
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Contacts.msg
+[3.672s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.msg
+[3.673s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/msg/Pose.msg
+[3.673s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/ament_index/resource_index/package_run_dependencies/champ_msgs
+[3.673s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/ament_index/resource_index/parent_prefix_path/champ_msgs
+[3.673s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.sh
+[3.673s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.dsv
+[3.673s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/environment/path.sh
+[3.673s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/environment/path.dsv
+[3.674s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/local_setup.bash
+[3.674s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/local_setup.sh
+[3.674s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/local_setup.zsh
+[3.674s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/local_setup.dsv
+[3.674s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/package.dsv
+[3.674s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/ament_index/resource_index/packages/champ_msgs
+[3.674s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.675s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cppExport.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport.cmake
+[3.676s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake-extras.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.677s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig.cmake
+[3.678s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig-version.cmake
+[3.678s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/package.xml
+[3.680s] Invoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs' returned '0': CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_msgs

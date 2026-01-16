@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_config/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

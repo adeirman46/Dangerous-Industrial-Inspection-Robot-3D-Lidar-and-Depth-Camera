@@ -1,0 +1,122 @@
+[0.009s] Invoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base': AMENT_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_base -DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3 -DCMAKE_INSTALL_PREFIX=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base
+[0.016s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.016s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.016s]   CMake.
+[0.016s] 
+[0.016s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.016s]   to tell CMake that the project requires at least <min> but has been updated
+[0.016s]   to work with policies introduced by <max> or earlier.
+[0.016s] 
+[0.016s] [0m
+[0.064s] -- The C compiler identification is GNU 14.3.0
+[0.177s] -- The CXX compiler identification is GNU 14.3.0
+[0.185s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-cc - skipped
+[0.272s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.284s] -- Detecting CXX compiler ABI info
+[0.358s] -- Detecting CXX compiler ABI info - done
+[0.378s] -- Check for working CXX compiler: /home/irman/micromamba/envs/ros2_env/bin/x86_64-conda-linux-gnu-c++ - skipped
+[0.378s] -- Detecting CXX compile features
+[0.379s] -- Detecting CXX compile features - done
+[0.392s] -- Found ament_cmake: 1.3.12 (/home/irman/micromamba/envs/ros2_env/share/ament_cmake/cmake)
+[0.548s] -- Found Python3: /home/irman/micromamba/envs/ros2_env/bin/python3 (found version "3.11.14") found components: Interpreter
+[0.681s] -- Found rclcpp: 16.0.13 (/home/irman/micromamba/envs/ros2_env/share/rclcpp/cmake)
+[0.758s] -- Found rosidl_generator_c: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_c/cmake)
+[0.770s] -- Found rosidl_adapter: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_adapter/cmake)
+[0.786s] -- Found rosidl_generator_cpp: 3.1.6 (/home/irman/micromamba/envs/ros2_env/share/rosidl_generator_cpp/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.835s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.942s] -- Checking for module 'yaml-0.1'
+[1.045s] --   Found yaml-0.1, version 0.2.5
+[1.346s] -- Found rmw_implementation_cmake: 6.1.2 (/home/irman/micromamba/envs/ros2_env/share/rmw_implementation_cmake/cmake)
+[1.353s] -- Found rmw_fastrtps_cpp: 6.2.7 (/home/irman/micromamba/envs/ros2_env/share/rmw_fastrtps_cpp/cmake)
+[1.844s] -- Found OpenSSL: /home/irman/micromamba/envs/ros2_env/lib/libcrypto.so (found version "3.5.4")
+[1.884s] -- Found FastRTPS: /home/irman/micromamba/envs/ros2_env/include
+[1.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.967s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.045s] -- Found Threads: TRUE
+[2.121s] -- Found rclpy: 3.3.16 (/home/irman/micromamba/envs/ros2_env/share/rclpy/cmake)
+[2.122s] -- Found champ_msgs: 0.1.0 (/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/share/champ_msgs/cmake)
+[2.189s] -- Found visualization_msgs: 4.9.0 (/home/irman/micromamba/envs/ros2_env/share/visualization_msgs/cmake)
+[2.256s] -- Found trajectory_msgs: 4.9.0 (/home/irman/micromamba/envs/ros2_env/share/trajectory_msgs/cmake)
+[2.286s] -- Found nav_msgs: 4.9.0 (/home/irman/micromamba/envs/ros2_env/share/nav_msgs/cmake)
+[2.316s] -- Found tf2_ros: 0.25.14 (/home/irman/micromamba/envs/ros2_env/share/tf2_ros/cmake)
+[2.496s] -- Found urdf: 2.6.1 (/home/irman/micromamba/envs/ros2_env/share/urdf/cmake)
+[2.532s] -- Found champ: 0.1.0 (/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ/share/champ/cmake)
+[2.618s] -- Configuring done (2.6s)
+[2.672s] -- Generating done (0.1s)
+[2.672s] [33mCMake Warning:
+[2.672s]   Manually-specified variables were not used by the project:
+[2.672s] 
+[2.672s]     Python_EXECUTABLE
+[2.672s] 
+[2.672s] [0m
+[2.681s] -- Build files have been written to: /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base
+[2.693s] Invoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/cmake /home/irman/3dlidar_ros2_legged_robot_inspection/src/unitree-go2-ros2/champ/champ_base -DPython_EXECUTABLE=/home/irman/micromamba/envs/ros2_env/bin/python3 -DCMAKE_INSTALL_PREFIX=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base
+[2.695s] Invoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base': AMENT_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base -- -j16 -l16
+[2.731s] [ 16%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[2.731s] [ 16%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[2.732s] [ 25%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[18.612s] [ 33%] [1m[32mLinking CXX shared library libquadruped_controller.so[0m
+[18.875s] [ 33%] Built target quadruped_controller
+[18.894s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[22.349s] [ 50%] [1m[32mLinking CXX executable quadruped_controller_node[0m
+[22.484s] [ 50%] Built target quadruped_controller_node
+[22.551s] [ 58%] [1m[32mLinking CXX shared library libmessage_relay.so[0m
+[22.748s] [ 58%] Built target message_relay
+[22.766s] [ 66%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[26.011s] [ 75%] [1m[32mLinking CXX executable message_relay_node[0m
+[26.164s] [ 75%] Built target message_relay_node
+[26.311s] [ 83%] [1m[32mLinking CXX shared library libstate_estimation.so[0m
+[26.551s] [ 83%] Built target state_estimation
+[26.570s] [ 91%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[34.867s] [100%] [1m[32mLinking CXX executable state_estimation_node[0m
+[34.989s] [100%] Built target state_estimation_node
+[35.004s] Invoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/cmake --build /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base -- -j16 -l16
+[35.005s] Invoking command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base': AMENT_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base
+[35.011s] -- Install configuration: ""
+[35.012s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/config
+[35.012s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/config/velocity_smoother
+[35.012s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[35.012s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/config/ekf
+[35.012s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[35.012s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[35.013s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/libquadruped_controller.so
+[35.015s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/libquadruped_controller.so" to ""
+[35.015s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/bin/quadruped_controller_node
+[35.015s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/bin/quadruped_controller_node" to ""
+[35.015s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/libmessage_relay.so
+[35.017s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/libmessage_relay.so" to ""
+[35.017s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/bin/message_relay_node
+[35.017s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/bin/message_relay_node" to ""
+[35.017s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/libstate_estimation.so
+[35.019s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/libstate_estimation.so" to ""
+[35.019s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/bin/state_estimation_node
+[35.020s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/bin/state_estimation_node" to ""
+[35.020s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/champ_base/quadruped_controller_node
+[35.020s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/champ_base/quadruped_controller_node" to ""
+[35.020s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/champ_base/message_relay_node
+[35.021s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/champ_base/message_relay_node" to ""
+[35.021s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/champ_base/state_estimation_node
+[35.021s] -- Set non-toolchain portion of runtime path of "/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/lib/champ_base/state_estimation_node" to ""
+[35.021s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[35.021s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[35.021s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/environment/path.sh
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/environment/path.dsv
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/local_setup.bash
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/local_setup.sh
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/local_setup.zsh
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/local_setup.dsv
+[35.022s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/package.dsv
+[35.023s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[35.023s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.023s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.023s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[35.023s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[35.023s] -- Installing: /home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_base/share/champ_base/package.xml
+[35.026s] Invoked command in '/home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs:/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(ros2_env) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib:/home/irman/micromamba/envs/ros2_env/opt/rviz_ogre_vendor/lib:/home/irman/micromamba/envs/ros2_env/lib/gazebo-11/plugins PYTHONPATH=/home/irman/3dlidar_ros2_legged_robot_inspection/install/champ_msgs/lib/python3.11/site-packages:${PYTHONPATH} /home/irman/micromamba/envs/ros2_env/bin/cmake --install /home/irman/3dlidar_ros2_legged_robot_inspection/build/champ_base
