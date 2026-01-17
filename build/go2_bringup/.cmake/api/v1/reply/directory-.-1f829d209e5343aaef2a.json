@@ -241,7 +241,7 @@
 			"destination" : "share/ament_index/resource_index/package_run_dependencies",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/go2_bringup"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/go2_bringup"
 			],
 			"type" : "file"
 		},
@@ -251,7 +251,7 @@
 			"destination" : "share/ament_index/resource_index/parent_prefix_path",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/go2_bringup"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/go2_bringup"
 			],
 			"type" : "file"
 		},
@@ -271,7 +271,7 @@
 			"destination" : "share/go2_bringup/environment",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_environment_hooks/ament_prefix_path.dsv"
 			],
 			"type" : "file"
 		},
@@ -291,7 +291,7 @@
 			"destination" : "share/go2_bringup/environment",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_environment_hooks/path.dsv"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_environment_hooks/path.dsv"
 			],
 			"type" : "file"
 		},
@@ -301,7 +301,7 @@
 			"destination" : "share/go2_bringup",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_environment_hooks/local_setup.bash"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_environment_hooks/local_setup.bash"
 			],
 			"type" : "file"
 		},
@@ -311,7 +311,7 @@
 			"destination" : "share/go2_bringup",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_environment_hooks/local_setup.sh"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_environment_hooks/local_setup.sh"
 			],
 			"type" : "file"
 		},
@@ -321,7 +321,7 @@
 			"destination" : "share/go2_bringup",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_environment_hooks/local_setup.zsh"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_environment_hooks/local_setup.zsh"
 			],
 			"type" : "file"
 		},
@@ -331,7 +331,7 @@
 			"destination" : "share/go2_bringup",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_environment_hooks/local_setup.dsv"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_environment_hooks/local_setup.dsv"
 			],
 			"type" : "file"
 		},
@@ -341,7 +341,7 @@
 			"destination" : "share/go2_bringup",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_environment_hooks/package.dsv"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_environment_hooks/package.dsv"
 			],
 			"type" : "file"
 		},
@@ -351,7 +351,7 @@
 			"destination" : "share/ament_index/resource_index/packages",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_index/share/ament_index/resource_index/packages/go2_bringup"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_index/share/ament_index/resource_index/packages/go2_bringup"
 			],
 			"type" : "file"
 		},
@@ -361,8 +361,8 @@
 			"destination" : "share/go2_bringup/cmake",
 			"paths" : 
 			[
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_core/go2_bringupConfig.cmake",
-				"/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_core/go2_bringupConfig-version.cmake"
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_core/go2_bringupConfig.cmake",
+				"/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_core/go2_bringupConfig-version.cmake"
 			],
 			"type" : "file"
 		},

@@ -112,3 +112,28 @@ Detailed sensor data is available for inspection algorithms:
 *   **Depth Camera**: `/depth_camera/depth/image_raw`, `/depth_camera/depth/points`
 *   **RGB Camera**: `/depth_camera/color/image_raw`
 *   **Odometry**: `/odom`
+
+## 🗺️ SLAM and Camera Visualization
+
+To visualize the robot's sensors and real-time SLAM mapping, run the SLAM visualization script **after** the main demo is running:
+
+**Terminal 1: Main Simulation**
+```bash
+./launch_demo.sh
+```
+
+**Terminal 2: SLAM & Camera Visualization**
+```bash
+./launch_slam_camera.sh
+```
+
+This will open RViz2 displaying:
+- **3D LiDAR Point Cloud** (green) - Velodyne VLP-16
+- **2D Laser Scan** (red) - converted from 3D point cloud for SLAM
+- **Depth Camera Point Cloud** (cyan) - Intel RealSense style depth camera
+- **Color and Depth Images** - live camera feeds
+- **SLAM Map** - real-time 2D occupancy grid map
+
+Move the robot using WASD controls to build a map of the warehouse environment!
+
+![LiDAR and Camera Inference](docs/lidar_and_camera_inference.png)

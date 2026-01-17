@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-e7622c9f22f4a1c0075b.json",
+					"jsonFile" : "directory-.-1f829d209e5343aaef2a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "go2_bringup_uninstall::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-go2_bringup_uninstall-215da2ebf2806f37f820.json",
+					"jsonFile" : "target-go2_bringup_uninstall-cc0c55c1945c7865e0fc.json",
 					"name" : "go2_bringup_uninstall",
 					"projectIndex" : 0
 				},
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup",
-		"source" : "/home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_bringup"
+		"build" : "/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup",
+		"source" : "/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/src/go2_bringup"
 	},
 	"version" : 
 	{

@@ -98,13 +98,13 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/CMakeFiles/go2_bringup_uninstall",
+			"path" : "/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/CMakeFiles/go2_bringup_uninstall",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/CMakeFiles/go2_bringup_uninstall.rule",
+			"path" : "/home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/CMakeFiles/go2_bringup_uninstall.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

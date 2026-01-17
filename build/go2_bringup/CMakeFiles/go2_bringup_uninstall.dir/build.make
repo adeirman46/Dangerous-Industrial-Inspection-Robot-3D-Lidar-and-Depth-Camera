@@ -53,10 +53,10 @@ RM = /home/irman/micromamba/envs/ros2_env/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_bringup
+CMAKE_SOURCE_DIR = /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/src/go2_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup
+CMAKE_BINARY_DIR = /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup
 
 # Utility rule file for go2_bringup_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/go2_bringup_uninstall.dir/compiler_depend.make
 include CMakeFiles/go2_bringup_uninstall.dir/progress.make
 
 CMakeFiles/go2_bringup_uninstall:
-	/home/irman/micromamba/envs/ros2_env/bin/cmake -P /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/home/irman/micromamba/envs/ros2_env/bin/cmake -P /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/go2_bringup_uninstall.dir/codegen:
 .PHONY : CMakeFiles/go2_bringup_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/go2_bringup_uninstall.dir/clean:
 .PHONY : CMakeFiles/go2_bringup_uninstall.dir/clean
 
 CMakeFiles/go2_bringup_uninstall.dir/depend:
-	cd /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_bringup /home/irman/3dlidar_ros2_legged_robot_inspection/src/go2_bringup /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup /home/irman/3dlidar_ros2_legged_robot_inspection/build/go2_bringup/CMakeFiles/go2_bringup_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/src/go2_bringup /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/src/go2_bringup /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup /home/irman/Dangerous-Industrial-Inspection-Robot-3D-Lidar-and-Depth-Camera/build/go2_bringup/CMakeFiles/go2_bringup_uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/go2_bringup_uninstall.dir/depend
 
